@@ -1,2 +1,2 @@
-# spring-xml
-Spring Web MVC XML-Based Configuration
+# spring-java
+Spring Web MVC Java-Based Configuration
