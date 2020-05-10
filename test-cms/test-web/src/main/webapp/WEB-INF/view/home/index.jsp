@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="UTF-8">
         <title>Home</title>
-        <script src='/test-web/resources/js/code-rain.js' type="text/javascript" async=true></script>
+        <script src='${pageContext.request.contextPath}/resources/js/code-rain.js' type="text/javascript" async=true></script>
         <style type="text/css">
             body {
                 padding: 0;

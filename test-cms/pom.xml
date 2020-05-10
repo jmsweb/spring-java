@@ -7,6 +7,7 @@
 
         <!-- Java version -->
         <java-version>11</java-version>
+        <javax-version>4.0.1</javax-version>
 
         <!-- Plugin version -->
         <ejb-plugin-version>3.0.1</ejb-plugin-version>
@@ -90,11 +91,17 @@
                 <artifactId>spring-security-config</artifactId>
                 <version>${spring-security-version}</version>
             </dependency>
-            <!-- JSTL version -->   
+            <!-- JSTL version -->
             <dependency>
                 <groupId>jstl</groupId>
                 <artifactId>jstl</artifactId>
                 <version>${jstl-version}</version>
+            </dependency>
+            <!-- Javax Servlet -->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${javax-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
